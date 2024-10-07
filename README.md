@@ -52,4 +52,3 @@ pip install hokireceh-claimer
 - Ton: ```UQBOGHJAp7EXL5WgAw3E2wfOF7HBapd8YyQxU6wa7V1WZD6N```
 - Dogs: ```UQBOGHJAp7EXL5WgAw3E2wfOF7HBapd8YyQxU6wa7V1WZD6N```
 - TRON / USDT (Tron20): ```TChYgcKG6zRwz5FP9UTZrAik3xDPa12M94```
-
