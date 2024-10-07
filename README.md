@@ -29,4 +29,4 @@ Join our Telegram group to stay updated and get instructions on how to use this 
 
 - Get auth data (`query_id=... /user=...`) in the `Application` tab in DevTools.
 - Auto features: Change `false` to `true` in the `config.json` file.
-- Supported commands: `/run_bot` `/query_id` `/proxy` `/proxy_web` (Join group to use these commands).
+- Supported commands: `git pull` `pip install hokireceh-claimer` (Join group to use these commands).
