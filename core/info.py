@@ -5,7 +5,7 @@ from core.headers import headers
 
 
 def get_info(data, proxies=None):
-    url = "https://birdx-api.birds.dog/user"
+    url = "https://birdx-api2.birds.dog/user"
 
     try:
         response = requests.get(
