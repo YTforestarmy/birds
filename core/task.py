@@ -5,7 +5,7 @@ from core.headers import headers
 
 
 def get_task(data, proxies=None):
-    url = "https://birdx-api2.birds.dog/project"
+    url = "https://api.birds.dog/project"
 
     try:
         response = requests.get(
@@ -22,7 +22,7 @@ def get_task(data, proxies=None):
 
 
 def do_task(data, task_id, channel_id, slug, point, proxies=None):
-    url = "https://birdx-api2.birds.dog/project/join-task"
+    url = "https://api.birds.dog/project/join-task"
     payload = {"taskId": task_id, "channelId": channel_id, "slug": slug, "point": point}
 
     try:
@@ -42,7 +42,7 @@ def do_task(data, task_id, channel_id, slug, point, proxies=None):
 
 
 def check_completed_task(data, proxies=None):
-    url = "https://birdx-api2.birds.dog/user-join-task"
+    url = "https://api.birds.dog/user-join-task"
 
     try:
         response = requests.get(
@@ -95,7 +95,7 @@ def process_do_task(data, proxies=None):
 
 
 def boost_speed(data, proxies=None):
-    url = "https://birdx-api2.birds.dog/minigame/boost-speed"
+    url = "https://api.birds.dog/minigame/boost-speed"
 
     try:
         response = requests.get(
@@ -113,7 +113,7 @@ def boost_speed(data, proxies=None):
 
 
 def update_speed(data, speed, proxies=None):
-    url = "https://birdx-api2.birds.dog/minigame/boost-speed/update-speed"
+    url = "https://api.birds.dog/minigame/boost-speed/update-speed"
     payload = {"speed": speed}
 
     try:

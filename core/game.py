@@ -5,7 +5,7 @@ from core.headers import headers
 
 
 def join(data, proxies=None):
-    url = "https://birdx-api2.birds.dog/minigame/egg/join"
+    url = "https://api.birds.dog/minigame/egg/join"
 
     try:
         response = requests.get(
@@ -22,7 +22,7 @@ def join(data, proxies=None):
 
 
 def turn(data, proxies=None):
-    url = "https://birdx-api2.birds.dog/minigame/egg/turn"
+    url = "https://api.birds.dog/minigame/egg/turn"
 
     try:
         response = requests.get(
@@ -39,7 +39,7 @@ def turn(data, proxies=None):
 
 
 def play(data, proxies=None):
-    url = "https://birdx-api2.birds.dog/minigame/egg/play"
+    url = "https://api.birds.dog/minigame/egg/play"
 
     try:
         response = requests.get(
@@ -56,7 +56,7 @@ def play(data, proxies=None):
 
 
 def claim(data, proxies=None):
-    url = "https://birdx-api2.birds.dog/minigame/egg/claim"
+    url = "https://api.birds.dog/minigame/egg/claim"
 
     try:
         response = requests.get(

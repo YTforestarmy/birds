@@ -6,7 +6,7 @@ from core.headers import headers
 
 
 def incubate_info(data, proxies=None):
-    url = "https://birdx-api2.birds.dog/minigame/incubate/info"
+    url = "https://api.birds.dog/minigame/incubate/info"
 
     try:
         response = requests.get(
@@ -38,7 +38,7 @@ def incubate_info(data, proxies=None):
 
 
 def incubate_upgrade(data, proxies=None):
-    url = "https://birdx-api2.birds.dog/minigame/incubate/upgrade"
+    url = "https://api.birds.dog/minigame/incubate/upgrade"
 
     try:
         response = requests.get(
@@ -56,7 +56,7 @@ def incubate_upgrade(data, proxies=None):
 
 
 def confirm_upgraded(data, proxies=None):
-    url = "https://birdx-api2.birds.dog/minigame/incubate/confirm-upgraded"
+    url = "https://api.birds.dog/minigame/incubate/confirm-upgraded"
 
     try:
         response = requests.post(
