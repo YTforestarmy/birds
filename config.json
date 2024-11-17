@@ -1,7 +1,7 @@
 {
   "auto-do-task": "true",
-  "auto-boost-speed": "true",
-  "auto-mint-worm": "true",
+  "auto-boost-speed": "false",
+  "auto-mint-worm": "false",
   "auto-break-egg": "true",
-  "auto-upgrade-egg": "true"
+  "auto-upgrade-egg": "false"
 }
